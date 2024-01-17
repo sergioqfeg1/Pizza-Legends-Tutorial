@@ -140,8 +140,8 @@ class OverworldMap {
 window.OverworldMaps = {
     DemoRoom: {
         id: "DemoRoom",
-        lowerSrc: "/images/maps/DemoLower.png",
-        upperSrc: "/images/maps/DemoUpper.png",
+        lowerSrc: "./images/maps/DemoLower.png",
+        upperSrc: "./images/maps/DemoUpper.png",
         gameObjects: {
 
         },
@@ -156,7 +156,7 @@ window.OverworldMaps = {
                 type: "Person",
                 x:utils.withGrid(7),
                 y:utils.withGrid(9),
-                src:"/images/characters/people/npc1.png",
+                src:"./images/characters/people/npc1.png",
                 behaviorLoop: [
                     {type:"stand", direction:"left", time:800},
                     {type:"stand", direction:"up", time:800},
@@ -187,7 +187,7 @@ window.OverworldMaps = {
                 type: "Person",
                 x:utils.withGrid(8),
                 y:utils.withGrid(5),
-                src:"/images/characters/people/erio.png",
+                src:"./images/characters/people/erio.png",
                 talking: [
                     {
                         events: [
@@ -285,8 +285,8 @@ window.OverworldMaps = {
     },
     Kitchen: {
         id: "Kitchen",
-        lowerSrc: "/images/maps/KitchenLower.png",
-        upperSrc: "/images/maps/KitchenUpper.png",
+        lowerSrc: "./images/maps/KitchenLower.png",
+        upperSrc: "./images/maps/KitchenUpper.png",
         configObjects: {
             hero: {
                 type: "Person",
@@ -299,7 +299,7 @@ window.OverworldMaps = {
                 x: utils.withGrid(9),
                 y: utils.withGrid(5),
                 direction: "up",
-                src: "/images/characters/people/npc8.png",
+                src: "./images/characters/people/npc8.png",
                 talking: [
                   {
                     events: [
@@ -312,7 +312,7 @@ window.OverworldMaps = {
                 type: "Person",
                 x: utils.withGrid(3),
                 y: utils.withGrid(6),
-                src: "/images/characters/people/npc3.png",
+                src: "./images/characters/people/npc3.png",
                 talking: [
                     {
                     events: [
@@ -407,8 +407,8 @@ window.OverworldMaps = {
     }, 
     Street: {
         id: "Street",
-        lowerSrc: "/images/maps/StreetLower.png",
-        upperSrc: "/images/maps/StreetUpper.png",
+        lowerSrc: "./images/maps/StreetLower.png",
+        upperSrc: "./images/maps/StreetUpper.png",
         configObjects: {
             hero: {
                 type: "Person",
@@ -464,8 +464,8 @@ window.OverworldMaps = {
     },
     StreetNorth: {
         id: "StreetNorth",
-        lowerSrc: "/images/maps/StreetNorthLower.png",
-        upperSrc: "/images/maps/StreetNorthUpper.png",
+        lowerSrc: "./images/maps/StreetNorthLower.png",
+        upperSrc: "./images/maps/StreetNorthUpper.png",
         configObjects: {
             hero: {
                 type: "Person",

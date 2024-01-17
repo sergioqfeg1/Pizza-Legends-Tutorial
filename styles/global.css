@@ -31,6 +31,6 @@ body {
 }
 
 .game-container canvas {
-    background: lightskyblue;
+    /* background: lightskyblue; */
     image-rendering: pixelated;
 }

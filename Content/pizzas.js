@@ -11,8 +11,8 @@ window.Pizzas = {
         name: "Slice Samurai",
         description: "A sneaky and spicy samurai",
         type: PizzaTypes.spicy,
-        src: "/images/characters/pizzas/s001.png",
-        icon: "/images/icons/spicy.png",
+        src: "./images/characters/pizzas/s001.png",
+        icon: "./images/icons/spicy.png",
         actions: [
             "clumsyStatus","damage1","saucyStatus"
         ],
@@ -21,8 +21,8 @@ window.Pizzas = {
         name: "Bacon Brigade",
         description: "A spicy comrade ready for battle",
         type: PizzaTypes.spicy,
-        src: "/images/characters/pizzas/s002.png",
-        icon: "/images/icons/spicy.png",
+        src: "./images/characters/pizzas/s002.png",
+        icon: "./images/icons/spicy.png",
         actions: [
             "damage1","saucyStatus","clumsyStatus"
         ],
@@ -31,8 +31,8 @@ window.Pizzas = {
         name: "Call Me Kale",
         description: "Peaceful but deadly",
         type: PizzaTypes.veggie,
-        src: "/images/characters/pizzas/v001.png",
-        icon: "/images/icons/veggie.png",
+        src: "./images/characters/pizzas/v001.png",
+        icon: "./images/icons/veggie.png",
         actions: [
             "damage1",
         ],
@@ -41,8 +41,8 @@ window.Pizzas = {
         name: "Portobello Express",
         description: "Intoxicatingly good",
         type: PizzaTypes.fungi,
-        src: "/images/characters/pizzas/f001.png",
-        icon: "/images/icons/fungi.png",
+        src: "./images/characters/pizzas/f001.png",
+        icon: "./images/icons/fungi.png",
         actions: [
             "damage1",
         ],
